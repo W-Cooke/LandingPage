@@ -94,6 +94,7 @@ button {
     display: block;
     text-align: center;
     width: 110px;
+    height: 40px;
     border: none;
     padding: 10px;
     border-radius: 8px;
@@ -156,7 +157,8 @@ button {
 
 .quote {
     background-color: #E5E7EB;
-    padding: 70px;
+    padding: 100px 200px;
+    text-align: center;
 }
 
 .quote_text {
@@ -170,4 +172,49 @@ button {
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* Call To Action */
+
+.call_to_action {
+    margin: 50px;
+}
+
+.cta_container {
+    background:#3882F6;
+    display: flex;
+    color:#F9FAF8;
+    border-radius: 10px;
+    padding: 25px 50px;
+    justify-content: space-around;
+    margin: 0px 50px;
+}
+
+h3 {
+    margin: 0px;
+}
+.cta_box {
+    margin: 20px;
+}
+
+.cta_button {
+    display: flex;
+    border: solid;
+    justify-content: center;
+    align-self: center;
+    border-raidus: 4px;
+    border-color:#F9FAF8;
+}
+
+/* footer */
+
+.footer {
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#F9FAF8;
+    font-size:10px;
 }
